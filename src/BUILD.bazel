@@ -4,7 +4,14 @@ load("@angular//:index.bzl", "ng_module")
 
 ng_module(
   name = "src",
-  srcs = glob(["*.ts"]),
+  srcs = ["main.ts"],
+  deps = [":app"],
+  tsconfig = ":tsconfig.json",
+)
+
+ng_module(
+  name = "app",
+  srcs = ["app.ts"],
   deps = ["//src/hello-world"],
   tsconfig = ":tsconfig.json",
 )

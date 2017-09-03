@@ -5,5 +5,6 @@ import {BrowserModule} from '@angular/platform-browser';
 
 @NgModule({
   imports: [BrowserModule, HelloWorldModule],
+  bootstrap: [HelloWorldModule]
 })
 export class AppModule {}
