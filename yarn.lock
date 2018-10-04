@@ -61,9 +61,9 @@
     requirejs "2.3.5"
     tmp "0.0.33"
 
-"@bazel/typescript@0.19.1":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.19.1.tgz#61dd57c0ab8a6c9930d2463d44e9522ec007fe3a"
+"@bazel/typescript@0.20.1":
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.20.1.tgz#f6d3ff13fb203ccb6ddeb7ca670978983b3e1b73"
   dependencies:
     protobufjs "5.0.0"
     source-map-support "0.5.9"
